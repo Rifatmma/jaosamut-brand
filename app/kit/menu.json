@@ -1,0 +1,300 @@
+{
+ "source": "sample",
+ "sample": "Sample dishes for the UI kit",
+ "categories": [
+  {
+   "id": "tomyum",
+   "name": "Tomyum",
+   "items": [
+    {
+     "id": "tom-yum-seafood-13",
+     "name": "Tom Yum Seafood",
+     "th": "ต้มยำทะเล",
+     "price": 19.9,
+     "sub": "Tomyum",
+     "desc": "Creamy tomyum soup with shimp and calamari",
+     "prep": 20,
+     "signature": true,
+     "heat": 2,
+     "groups": [
+      {
+       "id": "spice",
+       "name": "Spice level",
+       "min": 1,
+       "max": 1,
+       "pick": 1,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "Not spicy",
+         "price": 0
+        },
+        {
+         "name": "Mild",
+         "price": 0
+        },
+        {
+         "name": "Thai hot",
+         "price": 0
+        }
+       ]
+      },
+      {
+       "id": "size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "name": "Regular",
+         "price": 0
+        },
+        {
+         "name": "Large (3–4 pax)",
+         "price": 8
+        }
+       ]
+      },
+      {
+       "id": "addon",
+       "name": "Add-ons",
+       "min": 0,
+       "max": 3,
+       "pick": 0,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "White rice",
+         "price": 2
+        },
+        {
+         "name": "Telur mata (fried egg)",
+         "price": 2
+        },
+        {
+         "name": "Extra prawns",
+         "price": 6
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seafood",
+   "name": "Seafood",
+   "items": [
+    {
+     "id": "sotong-telur-masin-38",
+     "name": "Sotong Telur Masin",
+     "th": "หมึกไข่เค็ม",
+     "price": 14.9,
+     "sub": "Seafood",
+     "desc": "Squid stir fried in salted egg yolk sauce in big plate (For family)",
+     "prep": 20,
+     "signature": true,
+     "heat": 0,
+     "groups": [
+      {
+       "id": "spice",
+       "name": "Spice level",
+       "min": 1,
+       "max": 1,
+       "pick": 1,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "Not spicy",
+         "price": 0
+        },
+        {
+         "name": "Mild",
+         "price": 0
+        },
+        {
+         "name": "Thai hot",
+         "price": 0
+        }
+       ]
+      },
+      {
+       "id": "size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "name": "Regular",
+         "price": 0
+        },
+        {
+         "name": "Large (3–4 pax)",
+         "price": 8
+        }
+       ]
+      },
+      {
+       "id": "addon",
+       "name": "Add-ons",
+       "min": 0,
+       "max": 3,
+       "pick": 0,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "White rice",
+         "price": 2
+        },
+        {
+         "name": "Telur mata (fried egg)",
+         "price": 2
+        },
+        {
+         "name": "Extra prawns",
+         "price": 6
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "shrimp-salted-egg-41",
+     "name": "Shrimp Salted Egg",
+     "th": "กุ้งไข่เค็ม",
+     "price": 25.0,
+     "sub": "Seafood",
+     "desc": "Fried shrimp coated in telur masin sauce",
+     "prep": 20,
+     "signature": true,
+     "heat": 0,
+     "groups": [
+      {
+       "id": "spice",
+       "name": "Spice level",
+       "min": 1,
+       "max": 1,
+       "pick": 1,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "Not spicy",
+         "price": 0
+        },
+        {
+         "name": "Mild",
+         "price": 0
+        },
+        {
+         "name": "Thai hot",
+         "price": 0
+        }
+       ]
+      },
+      {
+       "id": "size",
+       "name": "Size",
+       "min": 1,
+       "max": 1,
+       "options": [
+        {
+         "name": "Regular",
+         "price": 0
+        },
+        {
+         "name": "Large (3–4 pax)",
+         "price": 8
+        }
+       ]
+      },
+      {
+       "id": "addon",
+       "name": "Add-ons",
+       "min": 0,
+       "max": 3,
+       "pick": 0,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "White rice",
+         "price": 2
+        },
+        {
+         "name": "Telur mata (fried egg)",
+         "price": 2
+        },
+        {
+         "name": "Extra prawns",
+         "price": 6
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "chicken-beef",
+   "name": "Chicken/Beef",
+   "items": [
+    {
+     "id": "chicken-cashew-nuts-54",
+     "name": "Chicken Cashew Nuts",
+     "th": "ไก่ผัดเม็ด",
+     "price": 10.9,
+     "sub": "Chicken/Beef",
+     "desc": "Marinated chicken stir fried in tamarind sauce in big plate (For family)",
+     "prep": 20,
+     "signature": true,
+     "heat": 0,
+     "groups": [
+      {
+       "id": "spice",
+       "name": "Spice level",
+       "min": 1,
+       "max": 1,
+       "pick": 1,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "Not spicy",
+         "price": 0
+        },
+        {
+         "name": "Mild",
+         "price": 0
+        },
+        {
+         "name": "Thai hot",
+         "price": 0
+        }
+       ]
+      },
+      {
+       "id": "addon",
+       "name": "Add-ons",
+       "min": 0,
+       "max": 3,
+       "pick": 0,
+       "pickWhy": "Khao Hom's suggestion",
+       "options": [
+        {
+         "name": "White rice",
+         "price": 2
+        },
+        {
+         "name": "Telur mata (fried egg)",
+         "price": 2
+        },
+        {
+         "name": "Extra prawns",
+         "price": 6
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
