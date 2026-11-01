@@ -8,6 +8,8 @@ Designed by Rif-at Wanwang.
   no downloads, logos and mascot shown as WebP (vector masters stay private), drafts/open fixes, halal/JAKIM notes,
   merch drop counts and research links removed, menu trimmed to 4 sample dishes.
 
+Pushing to `main` on GitHub redeploys the site automatically (Vercel Git integration).
+
 Update after the private pages change (run inside this folder, not the POS repo):
 
 ```bash
