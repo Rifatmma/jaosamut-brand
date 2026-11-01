@@ -8,10 +8,8 @@ Designed by Rif-at Wanwang.
   no downloads, logos and mascot shown as WebP (vector masters stay private), drafts/open fixes, halal/JAKIM notes,
   merch drop counts and research links removed, menu trimmed to 4 sample dishes.
 
-Update after the private pages change:
+Update after the private pages change (run inside this folder, not the POS repo):
 
 ```bash
-py scripts/sync.py
-npm run build
-npx vercel deploy --prod
+npm run release
 ```
